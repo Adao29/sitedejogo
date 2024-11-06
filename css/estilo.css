@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+#main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+#cabecalho1{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#cabecalho2{
+    display: flex;
+    background-color: aqua;
+    width: 100vw;
+    height: 15vh;
+    justify-content: space-around;
+}
+
+#cabecalho2 div {
+    align-items: center;
+    display: flex;
+}
+
+#cabecalho2 div img{
+    width: 50px;
+}
+
+#container{
+    display: flex;
+    background-color: rgb(240, 240, 240);
+    width: 100vw;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    font-size: 20px;
+}
+
+#LadoEsquerdo, #LadoDireito{
+    gap: 20px;
+}
+
+#L1{
+    color: aqua;
+}
+
+#L2{
+    color: rgb(0, 255, 64);
+}
+
+#L3{
+    color: rgb(179, 255, 0);
+}
+
+#L4{
+    color: rgb(255, 136, 0);
+}
+
+#L5{
+    color: rgb(204, 0, 255);
+}
+
+#cabecalho2 div img#bola{
+    width: 100px;
+}
+
+#caixa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70vw;
+    height: 60vh;
+}
+
+#Noticia1{
+    background:  url(../54120605695-1139845e67-o\ \(1\).jpg);
+    background-size: cover;
+    width: 39vw;
+    height: 60vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+#Noticia1 h2{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px  5px black;
+    text-align: center;
+}
+
+#Noticia2{
+    background-image: url(../agif23110121494662.jpg);
+    background-size: cover;
+    width: 30vw;
+    height: 29vh;
+    margin-bottom: 1vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+#Noticia2 h3, #Noticia3 h3{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 5px  5px black;
+    text-align: center;
+}
+
+#Noticia3{
+    background-image: url(../gbpjmvexaaas3r9.jpg);
+    background-size: cover;
+    width: 30vw;
+    height: 30vh;
+    display: flex;
+    align-items: flex-end;
+}
